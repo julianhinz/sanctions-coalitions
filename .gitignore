@@ -1,0 +1,6 @@
+# files to ignore
+.DS_Store
+
+# folders to ignore
+temp
+output

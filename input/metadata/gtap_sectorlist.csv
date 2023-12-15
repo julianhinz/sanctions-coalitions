@@ -1,0 +1,66 @@
+number;code;description
+1;PDR;Rice: seed, paddy (not husked)
+2;WHT;Wheat: seed, other
+3;GRO;Other Grains: maize (corn), sorghum, barley, rye, oats, millets, other cereals
+4;V_F;Veg & Fruit: vegetables, fruit and nuts, edible roots and tubers, pulses
+5;OSD;Oil Seeds: oil seeds and oleaginous fruit
+6;C_B;Cane & Beet: sugar crops
+7;PFB;Fibres crops
+8;OCR;"Other Crops: stimulant; spice and aromatic crops; forage products; plants and parts of plants used primarily in perfumery, pharmacy, or for insecticidal, fungicidal or similar purposes; beet seeds (excluding sugar beet seeds) and seeds of forage plants; natural rubber in primary forms or in plates, sheets or strip, living plants; cut flowers and flower buds; flower seeds, unmanufactured tobacco; other raw vegetable materials nec"
+9;CTL;Cattle: bovine animals, live, other ruminants, horses and other equines, bovine semen
+10;OAP;"Other Animal Products: swine; poultry; other live animals; eggs of hens or other birds in shell, fresh; reproductive materials of animals; natural honey; snails, fresh, chilled, frozen, dried, salted or in brine, except sea snails; edible products of animal origin n.e.c.; hides, skins and furskins, raw; insect waxes and spermaceti, whether or not refined or coloured"
+11;RMK;Raw milk
+12;WOL;Wool: wool, silk, and other raw animal materials used in textile
+13;FRS;Forestry: forestry, logging and related service activities
+14;FSH;"Fishing: hunting, trapping and game propagation including related service activities, fishing, fish farms; service activities incidental to fishing"
+15;COA;Coal: mining and agglomeration of hard coal, lignite and peat
+16;OIL;Oil: extraction of crude petroleum, service activities incidental to oil and gas extraction excluding surveying (part)
+17;GAS;Gas: extraction of natural gas, service activities incidental to oil and gas extraction excluding surveying (part)
+18;OXT;"Other Mining Extraction (formerly omn): mining of metal ores; other mining and quarrying"
+19;CMT;"Cattle Meat: fresh or chilled; meat of buffalo, fresh or chilled; meat of sheep, fresh or chilled; meat of goat, fresh or chilled; meat of camels and camelids, fresh or chilled; meat of horses and other equines, fresh or chilled; other meat of mammals, fresh or chilled; meat of mammals, frozen; edible offal of mammals, fresh, chilled or frozen"
+20;OMT;"Other Meat: meat of pigs, fresh or chilled; meat of rabbits and hares, fresh or chilled; meat of poultry, fresh or chilled; meat of poultry, frozen; edible offal of poultry, fresh, chilled or frozen; other meat and edible offal, fresh, chilled or frozen; preserves and preparations of meat, meat offal or blood; flours, meals and pellets of meat or meat offal, inedible; greaves"
+21;VOL;"Vegetable Oils: margarine and similar preparations; cotton linters; oil-cake and other residues resulting from the extraction of vegetable fats or oils; flours and meals of oil seeds or oleaginous fruits, except those of mustard; vegetable waxes, except triglycerides; degras; residues resulting from the treatment of fatty substances or animal or vegetable waxes; animal fats"
+22;MIL;Milk: dairy products
+23;PCR;Processed Rice: semi- or wholly milled, or husked
+24;SGR;Sugar and molasses
+25;OFD;"Other Food: prepared and preserved fish, crustaceans, molluscs and other aquatic invertebrates; prepared and preserved vegetables, pulses and potatoes; prepared and preserved fruits and nuts; wheat and meslin flour; other cereal flours; groats, meal and pellets of wheat and other cereals; other cereal grain products (including corn flakes); other vegetable flours and meals; mixes and doughs for the preparation of bakers' wares; starches and starch products; sugars and sugar syrups n.e.c.; preparations used in animal feeding; lucerne (alfalfa) meal and pellets; bakery products; cocoa, chocolate and sugar confectionery; macaroni, noodles, couscous and similar farinaceous products; food products n.e.c."
+26;B_T;Beverages and Tobacco products
+27;TEX;Manufacture of textiles
+28;WAP;Manufacture of wearing apparel
+29;LEA;Manufacture of leather and related products
+30;LUM;"Lumber: manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials"
+31;PPP;Paper & Paper Products: includes printing and reproduction of recorded media
+32;P_C;Petroleum & Coke: manufacture of coke and refined petroleum products
+33;CHM;Manufacture of chemicals and chemical products
+34;BPH;Manufacture of pharmaceuticals, medicinal chemical and botanical products
+35;RPP;Manufacture of rubber and plastics products
+36;NMM;Manufacture of other non-metallic mineral products
+37;I_S;Iron & Steel: basic production and casting
+38;NFM;Non-Ferrous Metals: production and casting of copper, aluminium, zinc, lead, gold, and silver
+39;FMP;Manufacture of fabricated metal products, except machinery and equipment
+40;ELE;Manufacture of computer, electronic and optical products
+41;EEQ;Manufacture of electrical equipment
+42;OME;Manufacture of machinery and equipment n.e.c.
+43;MVH;Manufacture of motor vehicles, trailers and semi-trailers
+44;OTN;Manufacture of other transport equipment
+45;OMF;Other Manufacturing: includes furniture
+46;ELY;"Electricity; steam and air conditioning supply"
+47;GDT;Gas manufacture, distribution
+48;WTR;"Water supply; sewerage, waste management and remediation activities"
+49;CNS;Construction: building houses factories offices and roads
+50;TRD;"Wholesale and retail trade; repair of motor vehicles and motorcycles"
+51;AFS;Accommodation, Food and service activities
+52;OTP;Land transport and transport via pipelines
+53;WTP;Water transport
+54;ATP;Air transport
+55;WHS;Warehousing and support activities
+56;CMN;Information and communication
+57;OFI;Other Financial Intermediation: includes auxiliary activities but not insurance and pension funding
+58;INS;Insurance (formerly isr): includes pension funding, except compulsory social security 
+59;RSA;Real estate activities
+60;OBS;Other Business Services nec
+61;ROS;"Recreation & Other Services: recreational, cultural and sporting activities, other service activities; private households with employed persons (servants)"
+62;OSG;"Other Services (Government): public administration and defense; compulsory social security, activities of membership organizations n.e.c., extra-territorial organizations and bodies"
+63;EDU;Education
+64;HHT;Human health and social work
+65;DWE;Dwellings: ownership of dwellings (imputed rents of houses occupied by owners)

@@ -1,0 +1,249 @@
+gtap_number,gtap_code,gtap_name,comtrade_code,country_name
+1,AUS,Australia,AUS,Australia
+1,AUS,Australia,CXR,Christmas Island
+1,AUS,Australia,CCK,Cocos (Keeling) Islands
+1,AUS,Australia,HMD,Heard Island and McDonald Islands
+1,AUS,Australia,NFK,Norfolk Island
+2,NZL,New Zealand,NZL,New Zealand
+3,XOC,Rest of Oceania,ASM,American Samoa
+3,XOC,Rest of Oceania,COK,Cook Islands
+3,XOC,Rest of Oceania,FJI,Fiji
+3,XOC,Rest of Oceania,PYF,French Polynesia
+3,XOC,Rest of Oceania,GUM,Guam
+3,XOC,Rest of Oceania,KIR,Kiribati
+3,XOC,Rest of Oceania,MHL,Marshall Islands
+3,XOC,Rest of Oceania,FSM,"Micronesia, Federated States of"
+3,XOC,Rest of Oceania,NRU,Nauru
+3,XOC,Rest of Oceania,NCL,New Caledonia
+3,XOC,Rest of Oceania,NIU,Niue
+3,XOC,Rest of Oceania,MNP,Northern Mariana Islands
+3,XOC,Rest of Oceania,PLW,Palau
+3,XOC,Rest of Oceania,PNG,Papua New Guinea
+3,XOC,Rest of Oceania,PCN,Pitcairn
+3,XOC,Rest of Oceania,WSM,Samoa
+3,XOC,Rest of Oceania,SLB,Solomon Islands
+3,XOC,Rest of Oceania,TKL,Tokelau
+3,XOC,Rest of Oceania,TON,Tonga
+3,XOC,Rest of Oceania,TUV,Tuvalu
+3,XOC,Rest of Oceania,UMI,United States Minor Outlying Islands
+3,XOC,Rest of Oceania,VUT,Vanuatu
+3,XOC,Rest of Oceania,WLF,Wallis and Futuna Islands
+4,CHN,China,CHN,China
+5,HKG,"Hong Kong, Special Administrative Region of China",HKG,"Hong Kong, Special Administrative Region of China"
+6,JPN,Japan,JPN,Japan
+7,KOR,"Korea, Republic of",KOR,"Korea, Republic of"
+8,MNG,Mongolia,MNG,Mongolia
+9,TWN,Taiwan,TWN,Taiwan
+10,XEA,Rest of East Asia,PRK,"Korea, Democratic People's Republic of"
+10,XEA,Rest of East Asia,MAC,"Macao, Special Administrative Region of China"
+11,BRN,Brunei Darussalam,BRN,Brunei Darussalam
+12,KHM,Cambodia,KHM,Cambodia
+13,IDN,Indonesia,IDN,Indonesia
+14,LAO,Lao PDR,LAO,Lao PDR
+15,MYS,Malaysia,MYS,Malaysia
+16,PHL,Philippines,PHL,Philippines
+17,SGP,Singapore,SGP,Singapore
+18,THA,Thailand,THA,Thailand
+19,VNM,Viet Nam,VNM,Viet Nam
+20,XSE,Rest of Southeast Asia,MMR,Myanmar
+20,XSE,Rest of Southeast Asia,TLS,Timor-Leste
+21,BGD,Bangladesh,BGD,Bangladesh
+22,IND,India,IND,India
+23,NPL,Nepal,NPL,Nepal
+24,PAK,Pakistan,PAK,Pakistan
+25,LKA,Sri Lanka,LKA,Sri Lanka
+26,XSA,Rest of South Asia,AFG,Afghanistan
+26,XSA,Rest of South Asia,BTN,Bhutan
+26,XSA,Rest of South Asia,MDV,Maldives
+27,CAN,Canada,CAN,Canada
+28,USA,United States of America,USA,United States of America
+29,MEX,Mexico,MEX,Mexico
+30,XNA,Rest of North America,BMU,Bermuda
+30,XNA,Rest of North America,GRL,Greenland
+30,XNA,Rest of North America,SPM,Saint Pierre and Miquelon
+31,ARG,Argentina,ARG,Argentina
+32,BOL,Bolivia,BOL,Bolivia
+33,BRA,Brazil,BRA,Brazil
+34,CHL,Chile,CHL,Chile
+35,COL,Colombia,COL,Colombia
+36,ECU,Ecuador,ECU,Ecuador
+37,PRY,Paraguay,PRY,Paraguay
+38,PER,Peru,PER,Peru
+39,URY,Uruguay,URY,Uruguay
+40,VEN,Venezuela (Bolivarian Republic of),VEN,Venezuela (Bolivarian Republic of)
+41,XSM,Rest of South America,FLK,Falkland Islands (Malvinas)
+41,XSM,Rest of South America,GUF,French Guiana
+41,XSM,Rest of South America,GUY,Guyana
+41,XSM,Rest of South America,SGS,South Georgia and the South Sandwich Islands
+41,XSM,Rest of South America,SUR,Suriname
+42,CRI,Costa Rica,CRI,Costa Rica
+43,GTM,Guatemala,GTM,Guatemala
+44,HND,Honduras,HND,Honduras
+45,NIC,Nicaragua,NIC,Nicaragua
+46,PAN,Panama,PAN,Panama
+47,SLV,El Salvador,SLV,El Salvador
+48,XCA,Rest of Central America,BLZ,Belize
+49,DOM,Dominican Republic,DOM,Dominican Republic
+50,JAM,Jamaica,JAM,Jamaica
+51,PRI,Puerto Rico,PRI,Puerto Rico
+52,TTO,Trinidad and Tobago,TTO,Trinidad and Tobago
+53,XCB,Rest of Caribbean,AIA,Anguilla
+53,XCB,Rest of Caribbean,ATG,Antigua and Barbuda
+53,XCB,Rest of Caribbean,ABW,Aruba
+53,XCB,Rest of Caribbean,BHS,Bahamas
+53,XCB,Rest of Caribbean,BRB,Barbados
+53,XCB,Rest of Caribbean,VGB,British Virgin Islands
+53,XCB,Rest of Caribbean,CYM,Cayman Islands
+53,XCB,Rest of Caribbean,CUB,Cuba
+53,XCB,Rest of Caribbean,DMA,Dominica
+53,XCB,Rest of Caribbean,GRD,Grenada
+53,XCB,Rest of Caribbean,HTI,Haiti
+53,XCB,Rest of Caribbean,MSR,Montserrat
+53,XCB,Rest of Caribbean,CUW,Curaçao
+53,XCB,Rest of Caribbean,SXM,Sint Maarten
+53,XCB,Rest of Caribbean,BES,Caribbean Netherlands
+53,XCB,Rest of Caribbean,KNA,Saint Kitts and Nevis
+53,XCB,Rest of Caribbean,LCA,Saint Lucia
+53,XCB,Rest of Caribbean,VCT,Saint Vincent and Grenadines
+53,XCB,Rest of Caribbean,TCA,Turks and Caicos Islands
+53,XCB,Rest of Caribbean,VIR,"Virgin Islands, US"
+54,AUT,Austria,AUT,Austria
+55,BEL,Belgium,BEL,Belgium
+56,BGR,Bulgaria,BGR,Bulgaria
+57,HRV,Croatia,HRV,Croatia
+58,CYP,Cyprus,CYP,Cyprus
+59,CZE,Czech Republic,CZE,Czech Republic
+60,DNK,Denmark,DNK,Denmark
+61,EST,Estonia,EST,Estonia
+62,FIN,Finland,ALA,Aland Islands
+62,FIN,Finland,FIN,Finland
+63,FRA,France,FRA,France
+63,FRA,France,GLP,Guadeloupe
+63,FRA,France,MTQ,Martinique
+63,FRA,France,REU,Réunion
+63,FRA,France,BLM,St. Barthélemy
+64,DEU,Germany,DEU,Germany
+65,GRC,Greece,GRC,Greece
+66,HUN,Hungary,HUN,Hungary
+67,IRL,Ireland,IRL,Ireland
+68,ITA,Italy,ITA,Italy
+69,LVA,Latvia,LVA,Latvia
+70,LTU,Lithuania,LTU,Lithuania
+71,LUX,Luxembourg,LUX,Luxembourg
+72,MLT,Malta,MLT,Malta
+73,NLD,Netherlands,NLD,Netherlands
+74,POL,Poland,POL,Poland
+75,PRT,Portugal,PRT,Portugal
+76,ROU,Romania,ROU,Romania
+77,SVK,Slovakia,SVK,Slovakia
+78,SVN,Slovenia,SVN,Slovenia
+79,ESP,Spain,ESP,Spain
+80,SWE,Sweden,SWE,Sweden
+81,GBR,United Kingdom,GBR,United Kingdom
+82,CHE,Switzerland,CHE,Switzerland
+83,NOR,Norway,NOR,Norway
+83,NOR,Norway,SJM,Svalbard and Jan Mayen Islands
+84,XEF,Rest of European Free Trade Association,ISL,Iceland
+84,XEF,Rest of European Free Trade Association,LIE,Liechtenstein
+85,ALB,Albania,ALB,Albania
+86,BLR,Belarus,BLR,Belarus
+87,RUS,Russian Federation,RUS,Russian Federation
+88,UKR,Ukraine,UKR,Ukraine
+89,XEE,Rest of Eastern Europe,MDA,Moldova
+90,XER,Rest of Europe,AND,Andorra
+90,XER,Rest of Europe,BIH,Bosnia and Herzegovina
+90,XER,Rest of Europe,FRO,Faroe Islands
+90,XER,Rest of Europe,GIB,Gibraltar
+90,XER,Rest of Europe,GGY,Guernsey 
+90,XER,Rest of Europe,VAT,Holy See (Vatican City State)
+90,XER,Rest of Europe,IMN,Isle of Man
+90,XER,Rest of Europe,JEY,Jersey
+90,XER,Rest of Europe,MCO,Monaco
+90,XER,Rest of Europe,MNE,Montenegro
+90,XER,Rest of Europe,MKD,North Macedonia
+90,XER,Rest of Europe,SMR,San Marino
+90,XER,Rest of Europe,SRB,Serbia
+91,KAZ,Kazakhstan,KAZ,Kazakhstan
+92,KGZ,Kyrgyztan,KGZ,Kyrgyztan
+93,TJK,Tajikistan,TJK,Tajikistan
+94,XSU,Rest of Former Soviet Union,TKM,Turkmenistan
+94,XSU,Rest of Former Soviet Union,UZB,Uzbekistan
+95,ARM,Armenia,ARM,Armenia
+96,AZE,Azerbaijan,AZE,Azerbaijan
+97,GEO,Georgia,GEO,Georgia
+98,BHR,Bahrain,BHR,Bahrain
+99,IRN,"Iran, Islamic Republic of",IRN,"Iran, Islamic Republic of"
+100,ISR,Israel,ISR,Israel
+101,JOR,Jordan,JOR,Jordan
+102,KWT,Kuwait,KWT,Kuwait
+103,OMN,Oman,OMN,Oman
+104,QAT,Qatar,QAT,Qatar
+105,SAU,Saudi Arabia,SAU,Saudi Arabia
+106,TUR,Turkey,TUR,Turkey
+107,ARE,United Arab Emirates,ARE,United Arab Emirates
+108,XWS,Rest of Western Asia,IRQ,Iraq
+108,XWS,Rest of Western Asia,LBN,Lebanon
+108,XWS,Rest of Western Asia,PSE,"Palestinian Territory, Occupied"
+108,XWS,Rest of Western Asia,SYR,Syrian Arab Republic (Syria)
+108,XWS,Rest of Western Asia,YEM,Yemen
+109,EGY,Egypt,EGY,Egypt
+110,MAR,Morocco,MAR,Morocco
+111,TUN,Tunisia,TUN,Tunisia
+112,XNF,Rest of North Africa,DZA,Algeria
+112,XNF,Rest of North Africa,LBY,Libya
+112,XNF,Rest of North Africa,ESH,Western Sahara
+113,BEN,Benin,BEN,Benin
+114,BFA,Burkina Faso,BFA,Burkina Faso
+115,CMR,Cameroon,CMR,Cameroon
+116,CIV,Côte d'Ivoire,CIV,Côte d'Ivoire
+117,GHA,Ghana,GHA,Ghana
+118,GIN,Guinea,GIN,Guinea
+119,NGA,Nigeria,NGA,Nigeria
+120,SEN,Senegal,SEN,Senegal
+121,TGO,Togo,TGO,Togo
+122,XWF,Rest of Western Africa,CPV,Cape Verde
+122,XWF,Rest of Western Africa,GMB,Gambia
+122,XWF,Rest of Western Africa,GNB,Guinea-Bissau
+122,XWF,Rest of Western Africa,LBR,Liberia
+122,XWF,Rest of Western Africa,MLI,Mali
+122,XWF,Rest of Western Africa,MRT,Mauritania
+122,XWF,Rest of Western Africa,NER,Niger
+122,XWF,Rest of Western Africa,SHN,Saint Helena
+122,XWF,Rest of Western Africa,SLE,Sierra Leone
+123,XCF,Rest of Central Africa,CAF,Central African Republic
+123,XCF,Rest of Central Africa,TCD,Chad
+123,XCF,Rest of Central Africa,COG,Congo
+123,XCF,Rest of Central Africa,GNQ,Equatorial Guinea
+123,XCF,Rest of Central Africa,GAB,Gabon
+123,XCF,Rest of Central Africa,STP,Sao Tome and Principe
+124,XAC,South Central Africa,AGO,Angola
+124,XAC,South Central Africa,COD,"Congo, Democratic Republic of the"
+125,ETH,Ethiopia,ETH,Ethiopia
+126,KEN,Kenya,KEN,Kenya
+127,MDG,Madagascar,MDG,Madagascar
+128,MWI,Malawi,MWI,Malawi
+129,MUS,Mauritius,MUS,Mauritius
+130,MOZ,Mozambique,MOZ,Mozambique
+131,RWA,Rwanda,RWA,Rwanda
+132,TZA,"Tanzania, United Republic of",TZA,"Tanzania, United Republic of"
+133,UGA,Uganda,UGA,Uganda
+134,ZMB,Zambia,ZMB,Zambia
+135,ZWE,Zimbabwe,ZWE,Zimbabwe
+136,XEC,Rest of Eastern Africa,BDI,Burundi
+136,XEC,Rest of Eastern Africa,COM,Comoros
+136,XEC,Rest of Eastern Africa,DJI,Djibouti
+136,XEC,Rest of Eastern Africa,ERI,Eritrea
+136,XEC,Rest of Eastern Africa,MYT,Mayotte
+136,XEC,Rest of Eastern Africa,SYC,Seychelles
+136,XEC,Rest of Eastern Africa,SOM,Somalia
+136,XEC,Rest of Eastern Africa,SDN,Sudan
+136,XEC,Rest of Eastern Africa,SSD,South Sudan
+137,BWA,Botswana,BWA,Botswana
+138,NAM,Namibia,NAM,Namibia
+139,ZAF,South Africa,ZAF,South Africa
+140,XSC,Rest of South African Customs Union,SWZ,Eswatini
+140,XSC,Rest of South African Customs Union,LSO,Lesotho
+141,XTW,Rest of the World,ATA,Antarctica
+141,XTW,Rest of the World,BVT,Bouvet Island
+141,XTW,Rest of the World,IOT,British Indian Ocean Territory
+141,XTW,Rest of the World,ATF,French Southern Territories
