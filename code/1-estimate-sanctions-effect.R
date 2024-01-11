@@ -1,6 +1,6 @@
 ###
 # 1 - estimate sanctions effect
-# 231201
+# 240108
 ###
 
 if (!require("pacman")) install.packages("pacman"); library("pacman")
@@ -12,9 +12,7 @@ pacman::p_load(stringr)
 pacman::p_load(fixest)
 pacman::p_load(bit64)
 pacman::p_load(countrycode)
-pacman::p_load(tictoc)
 pacman::p_load(ggplot2)
-pacman::p_load(R.utils)
 pacman::p_load(insight)
 pacman::p_load(haven)
 

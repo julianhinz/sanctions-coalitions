@@ -1,10 +1,11 @@
 ###
 # 0 - prepare data
-# 231201
+# 240108
 ###
 
 if (!require("pacman")) install.packages("pacman"); library("pacman")
 pacman::p_load(data.table)
+pacman::p_load(R.utils)
 pacman::p_load(readr)
 pacman::p_load(magrittr)
 pacman::p_load(purrr)
@@ -14,7 +15,17 @@ pacman::p_load(bit64)
 pacman::p_load(countrycode)
 pacman::p_load_gh("julianhinz/KITE")
 
-# 0 - custom functions and definitions ----
+# 0 - custom functions, definitions, and folder structure ----
+
+## create folders if necessary ----
+if (!dir.exists("temp")) dir.create("temp")
+if (!dir.exists("temp/data")) dir.create("temp/data")
+if (!dir.exists("temp/initial_conditions")) dir.create("temp/initial_conditions")
+if (!dir.exists("temp/regressions")) dir.create("temp/regressions")
+if (!dir.exists("temp/simulations")) dir.create("temp/simulations")
+if (!dir.exists("output")) dir.create("output")
+if (!dir.exists("output/tables")) dir.create("output/tables")
+if (!dir.exists("output/figures")) dir.create("output/figures")
 
 ## match and replace ----
 match_replace <- function (code, from, to, dictionary) {
@@ -329,7 +340,7 @@ rm(trade_shares_iran)
 # unbalanced
 baseline_iran_unbalanced = update_equilibrium(initial_conditions = initial_conditions_iran,
                                               model = compute_initial_conditions_cp_2015,
-                                              settings = list(verbose = 2L,
+                                              settings = list(verbose = F,
                                                               tolerance = 1e-4))
 initial_conditions_iran_unbalanced = baseline_iran_unbalanced$output
 
@@ -340,7 +351,7 @@ rm(baseline_iran_unbalanced)
 # balanced
 baseline_iran_balanced = update_equilibrium(initial_conditions = initial_conditions_iran_unbalanced,
                                             model_scenario = list(trade_balance = initial_conditions_iran_unbalanced$trade_balance[, .(country, value = 0)]),
-                                            model = caliendo_parro_2015_cpp,
+                                            model = caliendo_parro_2015,
                                             settings = list(verbose = F,
                                                             tolerance = 1e-8))
 initial_conditions_iran_balanced = copy(initial_conditions_iran_unbalanced)
@@ -421,7 +432,7 @@ rm(value_added_growth)
 # unbalanced
 baseline_russia_unbalanced = update_equilibrium(initial_conditions = initial_conditions_russia,
                                                 model = compute_initial_conditions_cp_2015,
-                                                settings = list(verbose = 2L,
+                                                settings = list(verbose = F,
                                                                 tolerance = 1e-4))
 initial_conditions_russia_unbalanced = baseline_russia_unbalanced$output
 
@@ -432,7 +443,7 @@ rm(baseline_russia_unbalanced)
 # balanced
 baseline_russia_balanced = update_equilibrium(initial_conditions = initial_conditions_russia_unbalanced,
                                               model_scenario = list(trade_balance = initial_conditions_russia_unbalanced$trade_balance[, .(country, value = 0)]),
-                                              model = caliendo_parro_2015_cpp,
+                                              model = caliendo_parro_2015,
                                               settings = list(verbose = F,
                                                               tolerance = 1e-8))
 initial_conditions_russia_balanced = copy(initial_conditions_russia_unbalanced)

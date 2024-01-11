@@ -1,6 +1,6 @@
 ###
 # 2 - simulate counterfactuals
-# 231201
+# 240108
 ###
 
 if (!require("pacman")) install.packages("pacman"); library("pacman")
@@ -14,7 +14,6 @@ pacman::p_load(stringr)
 pacman::p_load(bit64)
 pacman::p_load(reshape2)
 pacman::p_load(countrycode)
-pacman::p_load(R.utils)
 pacman::p_load(foreach)
 pacman::p_load(doParallel)
 pacman::p_load_gh("julianhinz/KITE")
@@ -250,7 +249,7 @@ benchmark_global_implementation_iran = update_equilibrium(initial_conditions = i
                                                           model_scenario = list(ntb = sanctions_baseline,
                                                                                 ntb_new = sanctions_iran),
                                                           model = caliendo_parro_2015,
-                                                          settings = list(verbose = 2L,
+                                                          settings = list(verbose = F,
                                                                           tolerance = 1e-4)) %>% compute_welfare_change()
 
 ### russia ----
@@ -258,7 +257,7 @@ benchmark_global_implementation_russia = update_equilibrium(initial_conditions =
                                                             model_scenario = list(ntb = sanctions_baseline,
                                                                                   ntb_new = sanctions_russia),
                                                             model = caliendo_parro_2015,
-                                                            settings = list(verbose = 2L,
+                                                            settings = list(verbose = F,
                                                                             tolerance = 1e-4)) %>% compute_welfare_change()
 
 rm(sanctions_iran,
@@ -305,7 +304,7 @@ benchmark_autarky_iran = update_equilibrium(initial_conditions = initial_conditi
                                             model_scenario = list(ntb = sanctions_baseline,
                                                                   ntb_new = sanctions_iran),
                                             model = caliendo_parro_2015,
-                                            settings = list(verbose = 2L,
+                                            settings = list(verbose = F,
                                                             tolerance = 1e-4,
                                                             vfactor = 0.01)) %>% compute_welfare_change()
 
@@ -314,7 +313,7 @@ benchmark_autarky_russia = update_equilibrium(initial_conditions = initial_condi
                                               model_scenario = list(ntb = sanctions_baseline,
                                                                     ntb_new = sanctions_russia),
                                               model = caliendo_parro_2015,
-                                              settings = list(verbose = 2L,
+                                              settings = list(verbose = F,
                                                               tolerance = 1e-4,
                                                               vfactor = 0.01)) %>% compute_welfare_change()
 
@@ -363,7 +362,7 @@ benchmark_embargo_iran = update_equilibrium(initial_conditions = initial_conditi
                                             model_scenario = list(ntb = sanctions_baseline,
                                                                   ntb_new = sanctions_iran),
                                             model = caliendo_parro_2015,
-                                            settings = list(verbose = 2L,
+                                            settings = list(verbose = F,
                                                             tolerance = 1e-4,
                                                             vfactor = 0.01)) %>% compute_welfare_change()
 
@@ -372,7 +371,7 @@ benchmark_embargo_russia = update_equilibrium(initial_conditions = initial_condi
                                               model_scenario = list(ntb = sanctions_baseline,
                                                                     ntb_new = sanctions_russia),
                                               model = caliendo_parro_2015,
-                                              settings = list(verbose = 2L,
+                                              settings = list(verbose = F,
                                                               tolerance = 1e-4,
                                                               vfactor = 0.01)) %>% compute_welfare_change()
 
