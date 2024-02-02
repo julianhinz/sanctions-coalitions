@@ -83,7 +83,7 @@ countries_EU = c("Belgium", "Denmark", "France", "Germany",
   countrycode("country.name", "iso3c")
 
 # concordance ISO3 to GTAP10
-concordance_countries = read_xlsx("metadata/ISO3_GTAP10.xlsx") %>% setDT
+concordance_countries = fread("input/metadata/concordance_iso3_GTAP10.csv")
 
 ## energy and services sectors ----
 sectors_energy = c("OIL", "GAS")
