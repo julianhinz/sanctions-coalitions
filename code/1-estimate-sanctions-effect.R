@@ -1,6 +1,6 @@
 ###
 # 1 - estimate sanctions effect
-# 240108
+# 240202
 ###
 
 if (!require("pacman")) install.packages("pacman"); library("pacman")
@@ -150,7 +150,7 @@ gc()
 set.seed(1234)
 
 sectors = data_models[, unique(sector)]
-clustered = F
+clustered = T
 n = 1000
 i = 1
 j = 1 # counter for successful runs

@@ -119,6 +119,7 @@ doParallel::registerDoParallel(cl = sanctions_cluster)
 type = "balanced"
 # type = "unbalanced"
 allow_positive_shock = F
+if (!dir.exists(str_c("temp/simulations/", type))) dir.create(str_c("temp/simulations/", type))
 
 if (type == "balanced") {
   initial_conditions_iran = read_rds("temp/initial_conditions/initial_conditions_iran_balanced.rds")
@@ -420,8 +421,6 @@ coefs[str_detect(variable, "SERVICES"), variable := str_remove(variable, "_SERVI
 coefs[, sector := str_to_lower(sector)]
 
 ## run iterations ----
-if (!dir.exists(str_c("temp/simulations/", type))) dir.create(str_c("temp/simulations/", type))
-
 initialize_results_files(str_c("temp/simulations/", type, "/scenario0_iran_clustered_pair.csv"))
 initialize_results_files(str_c("temp/simulations/", type, "/scenario0_russia_clustered_pair.csv"))
 initialize_results_files(str_c("temp/simulations/", type, "/scenario0b_iran_clustered_pair.csv"))
@@ -446,7 +445,7 @@ scenarios = c("s0",
               "s5"
               )
 
-for (iteration in coefs[, unique(i)]) { # [840:coefs[, uniqueN(i)]]) {
+for (iteration in coefs[, unique(i)]) {
 
   cat(format(Sys.time()), "-", iteration)
   
