@@ -1,6 +1,6 @@
 ###
 # 2 - simulate counterfactuals
-# 240108
+# 240201
 ###
 
 if (!require("pacman")) install.packages("pacman"); library("pacman")
@@ -105,7 +105,7 @@ n_cores = parallel::detectCores()
 # create the cluster
 sanctions_cluster <- parallel::makeCluster(
   n_cores - 1,
-  type = "FORK"
+  type = ifelse(Sys.info()["sysname"] == "Windows", "PSOCK", "FORK")
 )
 # print(sanctions_cluster)
 
@@ -637,7 +637,7 @@ for (iteration in coefs[, unique(i)]) { # [840:coefs[, uniqueN(i)]]) {
       tasks = tasks[!tasks %in% completed]
       
       if (length(tasks) > 0) {
-        foreach(c = tasks) %dopar% {
+        foreach(c = tasks, .packages = c("data.table", "dplyr", "KITE", "stringr")) %dopar% {
           sanctions_iran_s1 = copy(sanctions_iran)
           
           c_name = c
@@ -666,7 +666,7 @@ for (iteration in coefs[, unique(i)]) { # [840:coefs[, uniqueN(i)]]) {
       tasks = tasks[!tasks %in% completed]
       
       if (length(tasks) > 0) {
-        foreach(c = tasks) %dopar% {
+        foreach(c = tasks, .packages = c("data.table", "dplyr", "KITE", "stringr")) %dopar% {
           sanctions_iran_s1b = copy(sanctions_baseline)
           
           c_name = c
@@ -705,7 +705,7 @@ for (iteration in coefs[, unique(i)]) { # [840:coefs[, uniqueN(i)]]) {
       tasks = tasks[!tasks %in% completed]
       
       if (length(tasks) > 0) {
-        foreach(c = tasks) %dopar% {
+        foreach(c = tasks, .packages = c("data.table", "dplyr", "KITE", "stringr")) %dopar% {
           sanctions_russia_s1 = copy(sanctions_russia)
           
           c_name = c
@@ -734,7 +734,7 @@ for (iteration in coefs[, unique(i)]) { # [840:coefs[, uniqueN(i)]]) {
       tasks = tasks[!tasks %in% completed]
 
       if (length(tasks) > 0) {
-        foreach(c = tasks) %dopar% {
+        foreach(c = tasks, .packages = c("data.table", "dplyr", "KITE", "stringr")) %dopar% {
           sanctions_russia_s1b = copy(sanctions_baseline)
           
           c_name = c
@@ -781,7 +781,7 @@ for (iteration in coefs[, unique(i)]) { # [840:coefs[, uniqueN(i)]]) {
       tasks = tasks[!tasks %in% completed]
       
       if (length(tasks) > 0) {
-        foreach(c = tasks) %dopar% {
+        foreach(c = tasks, .packages = c("data.table", "dplyr", "KITE", "stringr")) %dopar% {
           sanctions_iran_s2 = copy(sanctions_iran)
           sanctions_iran_s2[destination == "IRN" & origin %in% c,
                             value := match_replace(sector, "sector", "value", shock[variable == "sanctions_iran"])]
@@ -816,7 +816,7 @@ for (iteration in coefs[, unique(i)]) { # [840:coefs[, uniqueN(i)]]) {
       tasks = tasks[!tasks %in% completed]
       
       if (length(tasks) > 0) {
-        foreach(c = tasks) %dopar% {
+        foreach(c = tasks, .packages = c("data.table", "dplyr", "KITE", "stringr")) %dopar% {
           sanctions_russia_s2 = copy(sanctions_russia)
           sanctions_russia_s2[destination == "RUS" & origin %in% c,
                               value := match_replace(sector, "sector", "value", shock[variable == "sanctions_russia"])]
@@ -1009,7 +1009,7 @@ if ("s5" %in% scenarios) {
       tasks = tasks[!tasks %in% coalition_countries]
       
       if (length(tasks) > 0) {
-        foreach(c = tasks) %dopar% {
+        foreach(c = tasks, .packages = c("data.table", "dplyr", "KITE", "stringr")) %dopar% {
           sanctions_iran_s5 = copy(sanctions_baseline)
           
           sanctions_iran_s5[destination == "IRN" & origin %in% c(c, coalition_countries),
@@ -1122,7 +1122,7 @@ if ("s5" %in% scenarios) {
       tasks = tasks[!tasks %in% coalition_countries]
       
       if (length(tasks) > 0) {
-        foreach(c = tasks) %dopar% {
+        foreach(c = tasks, .packages = c("data.table", "dplyr", "KITE", "stringr")) %dopar% {
           sanctions_russia_s5 = copy(sanctions_baseline)
           
           sanctions_russia_s5[destination == "RUS" & origin %in% c(c, coalition_countries),
