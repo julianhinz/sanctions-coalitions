@@ -1,6 +1,6 @@
 ###
 # 3 - generate output 
-# 231201
+# 240215
 ###
 
 if (!require("pacman")) install.packages("pacman"); library("pacman")
@@ -168,13 +168,13 @@ rm(reg_TOTAL,
 
 
 # table appendix: sectoral elasticities ----
-elasticity = read_rds("input/initial_conditions_gtap10.rds")$trade_elasticity
+elasticity = read_rds("input/kite_initial_conditions/initial_conditions_gtap10_2011.rds")$trade_elasticity
 setnames(elasticity, "value", "elasticity")
 elasticity[, sector := str_to_upper(sector)]
 elasticity[sector %in% sectors_services, sector := "SERVICES"]
 elasticity = unique(elasticity)
 
-sectorlist = fread("metadata/sectorlist.csv")
+sectorlist = fread("input/metadata/gtap_sectorlist.csv")
 sectorlist = sectorlist[, .(`short_description` = str_split_i(description, "\\:", 1)),
                         by = .(sector = code)]
 table_elasticities = merge(elasticity,
@@ -195,9 +195,6 @@ print.xtable(table_elasticities,
              booktabs = T,
              include.rownames = F,
              floating = F)
-
-
-
 
 
 # figure 1: plot sectoral trade cost changes (tariff equivalent) ----
